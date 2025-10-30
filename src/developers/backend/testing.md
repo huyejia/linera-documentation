@@ -45,7 +45,7 @@ the application.
 
 ### Example
 
-A simple integration test that execution a block containing an operation for the
+A simple integration test that executes a block containing an operation for the
 `Counter` application is shown below.
 
 ```rust,ignore

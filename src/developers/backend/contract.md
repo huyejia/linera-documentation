@@ -28,7 +28,7 @@ This type usually contains at least two fields: the persistent `state` defined
 earlier and a handle to the runtime. The runtime provides access to information
 about the current execution and also allows sending messages, among other
 things. Other fields can be added, and they can be used to store volatile data
-that only exists while the current transaction is being executed, and discarded
+that only exists while the current transaction is being executed, and is discarded
 afterwards.
 
 When a transaction is executed, the contract type is created through a call to
